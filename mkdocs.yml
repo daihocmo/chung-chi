@@ -1,0 +1,47 @@
+site_name: Tự luyện chứng chỉ
+site_description: Một trang hướng dẫn tự học và ôn thi chứng chỉ cho khá nhiều chứng chỉ
+site_author: duykhanh471
+repo_url: https://github.com/daihocmo/tu-luyen-chung-chi
+repo_name: Ôn luyện ngoại ngữ
+
+nav:
+  - 'Tự luyện chứng chỉ': index.md
+  - 'Ngoại ngữ':
+    - 'IELTS': 'ngoai-ngu/ielts.md'
+    - 'TOEIC': 'ngoai-ngu/toeic.md'
+    - 'JLPT': 'ngoai-ngu/jlpt.md'
+    - 'HSK': 'ngoai-ngu/hsk.md'
+    - 'TOPIK': 'ngoai-ngu/topik.md'
+  
+
+
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+  language: vi
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: deep-purple
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/white-balance-sunny
+        name: Switch to light mode    
+      primary: deep-purple
+
+extra:
+  generator: false
+
+plugins:
+  - search
+  - open-in-new-tab
