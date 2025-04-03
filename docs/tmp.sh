@@ -1,0 +1,8 @@
+# mkdir -p ngoai-ngu; touch ngoai-ngu/tieng-anh.md ngoai-ngu/tieng-nhat.md ngoai-ngu/tieng-trung.md ngoai-ngu/tieng-phap.md ngoai-ngu/tieng-duc.md ngoai-ngu/tieng-han.md;
+mkdir -p cong-nghe-thong-tin-it; touch cong-nghe-thong-tin-it/chung-chi-java.md cong-nghe-thong-tin-it/chung-chi-python.md cong-nghe-thong-tin-it/chung-chi-aws.md cong-nghe-thong-tin-it/chung-chi-microsoft-azure.md cong-nghe-thong-tin-it/chung-chi-cisco.md cong-nghe-thong-tin-it/chung-chi-comptia.md cong-nghe-thong-tin-it/chung-chi-bao-mat-cissp.md cong-nghe-thong-tin-it/chung-chi-quan-ly-du-an-pmp.md cong-nghe-thong-tin-it/chung-chi-scrum.md;
+mkdir -p kinh-doanh-va-tai-chinh; touch kinh-doanh-va-tai-chinh/chung-chi-cpa.md kinh-doanh-va-tai-chinh/chung-chi-acca.md kinh-doanh-va-tai-chinh/chung-chi-cfa.md kinh-doanh-va-tai-chinh/chung-chi-frm.md kinh-doanh-va-tai-chinh/chung-chi-quan-ly-du-an-prince2.md kinh-doanh-va-tai-chinh/chung-chi-shrm.md kinh-doanh-va-tai-chinh/chung-chi-hrci.md kinh-doanh-va-tai-chinh/chung-chi-google-ads.md kinh-doanh-va-tai-chinh/chung-chi-hubspot.md;
+mkdir -p y-te-va-cham-soc-suc-khoe; touch y-te-va-cham-soc-suc-khoe/chung-chi-hanh-nghe-y.md y-te-va-cham-soc-suc-khoe/chung-chi-hanh-nghe-dieu-duong.md y-te-va-cham-soc-suc-khoe/chung-chi-hanh-nghe-duoc.md;
+mkdir -p thiet-ke-va-sang-tao; touch thiet-ke-va-sang-tao/chung-chi-adobe-certified-professional.md thiet-ke-va-sang-tao/chung-chi-ciw.md;
+mkdir -p ky-thuat; touch ky-thuat/chung-chi-ky-su-chuyen-nghiep-pe.md;
+mkdir -p giao-duc; touch giao-duc/chung-chi-nghiep-vu-su-pham.md giao-duc/chung-chi-tesol.md;
+mkdir -p quan-ly-du-an; touch quan-ly-du-an/chung-chi-capm.md quan-ly-du-an/chung-chi-prince2-foundation-practitioner.md

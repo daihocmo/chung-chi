@@ -1,47 +1,88 @@
-site_name: Tự luyện chứng chỉ
+site_name: Tự luyện chứng chỉ - Khu học mở
 site_description: Một trang hướng dẫn tự học và ôn thi chứng chỉ cho khá nhiều chứng chỉ
 site_author: duykhanh471
-repo_url: https://github.com/daihocmo/tu-luyen-chung-chi
-repo_name: Ôn luyện ngoại ngữ
+repo_url: https://github.com/daihocmo/chung-chi
+repo_name: Tu luyện chứng chỉ
 
 nav:
   - 'Tự luyện chứng chỉ': index.md
   - 'Ngoại ngữ':
-    - 'IELTS': 'ngoai-ngu/ielts.md'
-    - 'TOEIC': 'ngoai-ngu/toeic.md'
-    - 'JLPT': 'ngoai-ngu/jlpt.md'
-    - 'HSK': 'ngoai-ngu/hsk.md'
-    - 'TOPIK': 'ngoai-ngu/topik.md'
-  
+    - 'Tiếng Anh': 'ngoai-ngu/tieng-anh.md'
+    - 'Tiếng Nhật': 'ngoai-ngu/tieng-nhat.md'
+    - 'Tiếng Trung': 'ngoai-ngu/tieng-trung.md'
+    - 'Tiếng Pháp': 'ngoai-ngu/tieng-phap.md'
+    - 'Tiếng Đức': 'ngoai-ngu/tieng-duc.md'
+    - 'Tiếng Hàn': 'ngoai-ngu/tieng-han.md'
+  - 'Công nghệ thông tin':
+    - 'Chứng chỉ Java': 'cong-nghe-thong-tin/java.md'
+    - 'Chứng chỉ Python': 'cong-nghe-thong-tin/python.md'
+    - 'Chứng chỉ AWS (Amazon Web Services)': 'cong-nghe-thong-tin/aws.md'
+    - 'Chứng chỉ Microsoft Azure': 'cong-nghe-thong-tin/microsoft-azure.md'
+    - 'Chứng chỉ Cisco (CCNA, CCNP, CCIE)': 'cong-nghe-thong-tin/cisco.md'
+    - 'Chứng chỉ CompTIA (A+, Network+, Security+, etc.)': 'cong-nghe-thong-tin/comptia.md'
+    - 'Chứng chỉ bảo mật CISSP (Certified Information Systems Security Professional)': 'cong-nghe-thong-tin/bao-mat-cissp.md'
+    - 'Chứng chỉ quản lý dự án PMP (Project Management Professional)': 'cong-nghe-thong-tin/quan-ly-du-an-pmp.md'
+    - 'Chứng chỉ Scrum (CSM, CSPO)': 'cong-nghe-thong-tin/scrum.md'
+  - 'Kinh doanh và Tài chính':
+    - 'Chứng chỉ CPA (Certified Public Accountant)': 'kinh-doanh-va-tai-chinh/cpa.md'
+    - 'Chứng chỉ ACCA (Association of Chartered Certified Accountants)': 'kinh-doanh-va-tai-chinh/acca.md'
+    - 'Chứng chỉ CFA (Chartered Financial Analyst)': 'kinh-doanh-va-tai-chinh/cfa.md'
+    - 'Chứng chỉ FRM (Financial Risk Manager)': 'kinh-doanh-va-tai-chinh/frm.md'
+    - 'Chứng chỉ quản lý dự án PRINCE2': 'kinh-doanh-va-tai-chinh/quan-ly-du-an-prince2.md'
+    - 'Chứng chỉ SHRM (Society for Human Resource Management)': 'kinh-doanh-va-tai-chinh/shrm.md'
+    - 'Chứng chỉ HRCI (HR Certification Institute)': 'kinh-doanh-va-tai-chinh/hrci.md'
+    - 'Chứng chỉ Google Ads': 'kinh-doanh-va-tai-chinh/google-ads.md'
+    - 'Chứng chỉ HubSpot': 'kinh-doanh-va-tai-chinh/hubspot.md'
+  - 'Y tế và Chăm sóc sức khỏe':
+    - 'Chứng chỉ hành nghề y': 'y-te-va-cham-soc-suc-khoe/hanh-nghe-y.md'
+    - 'Chứng chỉ hành nghề điều dưỡng': 'y-te-va-cham-soc-suc-khoe/hanh-nghe-dieu-duong.md'
+    - 'Chứng chỉ hành nghề dược': 'y-te-va-cham-soc-suc-khoe/hanh-nghe-duoc.md'
+  - 'Thiết kế và Sáng tạo':
+    - 'Chứng chỉ Adobe Certified Professional': 'thiet-ke-va-sang-tao/adobe-certified-professional.md'
+    - 'Chứng chỉ CIW (Certified Internet Web Professional)': 'thiet-ke-va-sang-tao/ciw.md'
+  - 'Kỹ thuật':
+    - 'Chứng chỉ kỹ sư chuyên nghiệp PE': 'ky-thuat/ky-su-chuyen-nghiep-pe.md'
+  - 'Giáo dục':
+    - 'Chứng chỉ nghiệp vụ sư phạm': 'giao-duc/nghiep-vu-su-pham.md'
+    - 'Chứng chỉ TESOL (Teaching English to Speakers of Other Languages)': 'giao-duc/tesol.md'
+  - 'Quản lý dự án':
+    - 'Chứng chỉ CAPM (Certified Associate in Project Management)': 'quan-ly-du-an/capm.md'
+    - 'Chứng chỉ PRINCE2 Foundation/Practitioner': 'quan-ly-du-an/prince2-foundation-practitioner.md'
 
-
+ 
 theme:
-  name: material
-  icon:
-    repo: fontawesome/brands/github
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - search.suggest
-    - search.highlight
-  language: vi
   palette:
+    # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: white
+      accent: grey
       toggle:
-        icon: material/weather-night
+        icon: material/brightness-7
         name: Switch to dark mode
-      primary: deep-purple
+
+    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: black
+      accent: grey
       toggle:
-        icon: material/white-balance-sunny
-        name: Switch to light mode    
-      primary: deep-purple
-
-extra:
-  generator: false
-
+        icon: material/brightness-4
+        name: Switch to light mode
+  logo: img/logo.svg
+  favicon: img/logo.png
+  features:
+    - navigation.instant
+    - navigation.sections
+    - search.suggest
+    - search.highlighting
+    - search.share
+  name: material
+  
 plugins:
   - search
   - open-in-new-tab
+  
+extra:
+  generator: false
+  homepage: https://daihocmo.github.io/
